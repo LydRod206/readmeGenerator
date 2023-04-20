@@ -35,8 +35,8 @@ inquirer
         },
         {
             type: 'input',
-            message: 'What liscense is your application distributed under?',
-            name: 'liscense'
+            message: 'What license is your application distributed under?',
+            name: 'license'
         },
         {
             type: 'input',
@@ -51,16 +51,15 @@ inquirer
     ])
     .then(answers => {
         const readmeContent = template
-      .replace('{appName}', answers.appName)
-      .replace('{description}', answers.description)
-      .replace('{features}', answers.features)
-      .replace('{installation}', answers.installation)
-      .replace('{usage}', answers.usage)
-      .replace('{contGuide}', answers.contGuide)
-      .replace('{license}', answers.license)
-      .replace('{githubUsername}', answers.githubUsername)
-      .replace('{email}', answers.email);
-          
+            .replace('{appName}', answers.appName)
+            .replace('{description}', answers.description)
+            .replace('{features}', answers.features)
+            .replace('{installation}', answers.installation)
+            .replace('{usage}', answers.usage)
+            .replace('{contGuide}', answers.contGuide)
+            .replace('{license}', answers.license)
+            .replace('{githubUsername}', answers.githubUsername)
+            .replace('{email}', answers.email);   
 
         fs.writeFile('README.md', readmeContent, error => {
             if (error) {

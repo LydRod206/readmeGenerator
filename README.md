@@ -1,36 +1,22 @@
-# Project Title
+# readmeGenerator
 
-Description of the project.
+## Description
+its cool
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [License](#license)
-- [Questions](#questions)
+## Features
+stuff
 
 ## Installation
-
-Instructions for installing the project.
+with internet
 
 ## Usage
+easily
 
-Instructions for using the project.
-
-## Contributing
-
-Guidelines for contributing to the project.
-
-## Tests
-
-Instructions for running tests on the project.
+## Contribution Guidelines
+be cool
 
 ## License
+This application is distributed under the mit license.
 
-This project is licensed under the [License Name] License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Questions
-
-For any questions or concerns, please contact [Your Name] at [Your Email] or [Your GitHub Username] on GitHub.
+## Contact
+For any questions or suggestions, feel free to contact me at my email address: annalydiar@gmail.com or visit my GitHub profile: <https://github.com/LydRod206>.
